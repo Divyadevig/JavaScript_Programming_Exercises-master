@@ -13,6 +13,7 @@ console.log("Hello");
  * 3) Add your own console.log statement
  *    to the program, so there are two.
  *    Don't forget the semicolon.
+ * 
  *
  * 4) Click Run.
  *
