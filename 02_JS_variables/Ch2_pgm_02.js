@@ -2,7 +2,6 @@
 
 var score;
 score = 100;
-
 /* Further Adventures
  *
  * 1) Click Run on the JS Bin Console panel.

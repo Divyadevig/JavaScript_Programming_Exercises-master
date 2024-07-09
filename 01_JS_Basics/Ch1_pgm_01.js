@@ -16,5 +16,4 @@ console.log("Hello");
  * 
  *
  * 4) Click Run.
- *
  */
