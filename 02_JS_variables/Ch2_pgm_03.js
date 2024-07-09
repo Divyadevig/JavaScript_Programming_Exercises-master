@@ -5,7 +5,7 @@ score = 400;
 console.log(score);
 var score2;
 score2=300;
-console.log(score2)
+console.log(score2);
 
 
 
