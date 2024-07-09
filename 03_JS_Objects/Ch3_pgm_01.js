@@ -1,5 +1,5 @@
 // Using variables to represent a book
-
+//first book
 var bookTitle;
 var bookAuthor;
 
@@ -8,8 +8,43 @@ bookAuthor = "J. R. R. Tolkien";
 
 console.log(bookTitle + " by " + bookAuthor);
 
+//second book
+var secondBookTitle;
+var secondBookAuthor;
 
+secondBookTitle="2003";
+secondBookAuthor="Divya";
 
+console.log(secondBookTitle + " by " + secondBookAuthor);
+
+//Third  book
+var thirdBookTitle;
+var thirdBookAuthor;
+
+thirdBookTitle = "To Kill a Mockingbird";
+thirdBookAuthor = "Harper Lee";
+
+console.log(thirdBookTitle + " by " + thirdBookAuthor);
+
+//fourth book
+
+var fourthBookTitle;
+var fourthBookAuthor;
+
+fourthBookTitle = "The Devil";
+fourthBookAuthor = "Pavithra";
+
+console.log(fourthBookTitle + " by " + fourthBookAuthor);
+
+//fifth book
+
+var fifthBookTitle;
+var fifithBookAuthor;
+
+fifthBookTitle = "Tree and Shadow";
+fifthBookAuthor = " Lee";
+
+console.log(fifthBookTitle + " by " + fifthBookAuthor);
 /* Further Adventures
  *
  * 1) Declare variables for a second book
