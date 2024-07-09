@@ -1,7 +1,7 @@
 // Assigning a value to a variable
 
 var score;
-score = 100;
+score = 200;
 /* Further Adventures
  *
  * 1) Click Run on the JS Bin Console panel.
