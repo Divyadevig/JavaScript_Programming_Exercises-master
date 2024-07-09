@@ -9,7 +9,7 @@ var book2Author = "Philip Pullman";
 var book3Title = "The Adventures of Tom Sawyer";
 var book3Author = "Mark Twain";
 
-var book4Title = "The devil";
+var book4Title = "The God";
 var book4Author = "Pavithra";
  
 console.log("There are three books so far...");
