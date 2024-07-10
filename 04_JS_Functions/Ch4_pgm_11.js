@@ -41,6 +41,43 @@ showMovieInfo();
 movie = movie3;
 showMovieInfo();
 
+var question1 = {
+    question: "Html is a",
+    options: ["Style sheets", "Structure of document", "Dynamic web page", "presentation layer"],
+    answer: 1 
+};
+
+var question2 = {
+    question: "CSS is a",
+    options: ["Style sheets", "Structure of document", "Dynamic web page", "presentation layer"],
+    answer: 0 
+};
+
+var question3 = {
+    question: "JavaScript is a",
+    options: ["Style sheets", "Structure of document", "Dynamic web page", "presentation layer"],
+    answer: 2 
+};
+
+var showQuizQuestion = function (question) {
+    console.log(question.question);
+    console.log("------------------------------");
+    for (var i = 0; i < question.options.length; i++) {
+        console.log((i + 1) + ") " + question.options[i]);
+    }
+    console.log("------------------------------");
+};
+
+var question;
+
+question = question1;
+showQuizQuestion(question);
+
+question = question2;
+showQuizQuestion(question);
+
+question = question3;
+showQuizQuestion(question);
 
 
 /* Further Adventures
