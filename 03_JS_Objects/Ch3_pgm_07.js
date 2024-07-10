@@ -5,14 +5,17 @@ var book2;
 
 book1 = {
     title : "The Hobbit",
-    author : "J. R. R. Tolkien"
+    author : "J. R. R. Tolkien",
+    genre  : "Fantasy"
 };
 
 book2 = {
 	title : "Northern Lights",
-	author : "Philip Pullman"
+	author : "Philip Pullman",
+    genre  : "Fantasy"
 };
-
+console.log(book1);
+console.log(book2);
 
 
 /* Further Adventures
