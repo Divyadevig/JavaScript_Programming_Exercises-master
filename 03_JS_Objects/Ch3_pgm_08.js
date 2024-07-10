@@ -3,16 +3,25 @@
 var book;
 
 book = {
-  title     : "The Hobbit",
+    title     : "The Hobbit",
 	author    : "J. R. R. Tolkien",
 	published : 1937
 };
+secondBook = {
+	title     : "My Book",
+    author    : "Divya",
+    published : 2000
+};
+
 
 console.log(book.title);
 console.log(book.author);
+console.log(book.published);
 
 
-
+console.log(secondBook.title);
+console.log(secondBook.author);
+console.log(secondBook.published);
 /* Further Adventures
  *
  * 1) Log the published property to the console.
