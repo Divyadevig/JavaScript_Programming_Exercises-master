@@ -1,6 +1,13 @@
 // Using a function to display object properties
 
 var showMovieInfo;
+var movie = { };
+var movie = {
+  title: "Inception",
+  actors: "Leonardo DiCaprio, Joseph Gordon-Levitt",
+  directors: "Christopher Nolan"
+};
+
 
 showMovieInfo = function () {
   console.log("Movie information for " + movie.title);
@@ -9,7 +16,7 @@ showMovieInfo = function () {
   console.log("Directors: " + movie.directors);
   console.log("------------------------------");
 };
-
+showMovieInfo();
 
 
 /* Further Adventures
