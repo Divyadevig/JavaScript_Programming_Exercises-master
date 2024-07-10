@@ -4,13 +4,13 @@ var book1;
 var book2;
 
 book1 = {
-    title : "The Hobbit",
+    title  : "The Hobbit",
     author : "J. R. R. Tolkien",
     genre  : "Fantasy"
 };
 
 book2 = {
-	title : "Northern Lights",
+	title  : "Northern Lights",
 	author : "Philip Pullman",
     genre  : "Fantasy"
 };
