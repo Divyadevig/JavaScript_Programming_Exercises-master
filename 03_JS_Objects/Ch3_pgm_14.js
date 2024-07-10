@@ -9,7 +9,11 @@ var questionAndAnswer = {
 	correctAnswer: "Paris",
 	marksForQuestion: 2
 };
-
+console.log(questionAndAnswer.question);
+console.log("A) " + questionAndAnswer.answer1);
+console.log("B) " + questionAndAnswer.answer2);
+console.log("C) " + questionAndAnswer.answer3);
+console.log("D) " + questionAndAnswer.answer4);
 
 
 /* Further Adventures
