@@ -13,20 +13,16 @@ sale2 = { price: 40, taxRate: 10 };
 sale3 = { price: 120, taxRate: 20 };
 sale4 = { price:150, taxRate: 30};
 
-
-
-calculateTax = function (sale) {
-    sale.tax = sale.price * sale.taxRate / 100;
-    sale.total = sale.price + sale.tax;
+calculateTax = function () {
+	sale.tax = sale.price * sale.taxRate / 100;
+	sale.total = sale.price + sale.tax;
 };
 
-displaySale = function (sale) {
-    console.log("price = $" + sale.price);
-    console.log("tax @ " + sale.taxRate + "% = $" + sale.tax);
-    console.log("total cost = $" + sale.total);
+displaySale = function () {
+  console.log("price = $" + sale.price);
+  console.log("tax @ " + sale.taxRate + "% = $" + sale.tax);
+  console.log("total cost = $" + sale.total);
 };
-
-
 
 sale = sale1;
 calculateTax();
@@ -40,7 +36,7 @@ sale = sale3;
 calculateTax();
 displaySale();
 
-sale = sale4;
+sale = sale;
 calculateTax();
 displaySale();
 
