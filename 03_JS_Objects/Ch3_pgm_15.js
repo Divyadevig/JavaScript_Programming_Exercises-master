@@ -1,6 +1,7 @@
 // A player object
 
 var player;
+var secondPlayer;
 
 player = {
     name: "Kandra",
@@ -12,10 +13,19 @@ player = {
 console.log(player.name);
 console.log(player.name + " is in " + player.place);
 console.log(player.name + " has health " + player.health);
-console.log("Items: " + player.items);
+console.log("Items: " + player.items.join(", "));
 
+secondPlayer = {
+    name: "Virat",
+    health: 50,
+    place: "Delhi",
+    items: "a rusty key"
+};
 
-
+console.log("\n" + secondPlayer.name);
+console.log(secondPlayer.name + " is in " + secondPlayer.place);
+console.log(secondPlayer.name + " has health " + secondPlayer.health);
+console.log("Items: " + secondPlayer.items.join(", "));
 /* Further Adventures
  *
  * 1) Create a second player.
