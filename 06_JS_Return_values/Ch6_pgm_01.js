@@ -5,17 +5,18 @@ var getMyMessage;
 var response;
 
 getMessage = function () {
-    return "I’m going on an adventure!";
+    return "I'm going on an adventure!";
 };
 
 getMyMessage = function(){
-    return ""
-}
+    return "I'm going to college";
+};
 
 response = getMessage();
 
 console.log(response);
 
+console.log(getMyMessage());
 
 
 /* Further Adventures
