@@ -3,12 +3,16 @@
 var showPlayerHealth;
 
 showPlayerHealth = function (playerName, playerHealth) {
-    console.log(playerName + " has health " + playerHealth);
+    console.log(playerName + " : " + playerHealth);
+    var healthInfo;
+    healthInfo = playerName + " : health " + playerHealth;
+    console.log(healthInfo);
 };
 
 showPlayerHealth("Kandra", 50);
 showPlayerHealth("Dax", 40);
-
+showPlayerHealth("Divya",20);
+showPlayerHealth("Pavithra",90);
 
 
 /* Further Adventures
