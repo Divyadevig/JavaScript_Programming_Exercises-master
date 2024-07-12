@@ -7,10 +7,23 @@ var showSmaller = function (num1, num2) {
     console.log(smaller + " is smaller than " + larger);
 };
 
-showSmaller(12, 3);
-showSmaller(-10, 3);
+var showLarger = function (num1,num2){
+    var larger = Math.max(num1, num2);
+    var smaller = Math.min(num1, num2);
 
+    console.log(larger + " is larger than " + smaller);
+}
+var showSmallest = function (num1,num2,num3){
+    var smaller = Math.min(num1,num2,num3);
 
+    console.log(" The smaller number is "+smaller )
+}
+showSmaller(80, 8);
+showSmaller(-77, 0);
+showLarger(90,10);
+showLarger(-12,-80);
+showSmallest(20,30,40);
+showSmallest(60,-20,-10);
 
 /* Further Adventures
  *
