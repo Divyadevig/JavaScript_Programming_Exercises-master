@@ -2,11 +2,17 @@
 
 var getPlayerName;
 
-getPlayerName = function (playerName) {
-    return playerName;
+getPlayerName = function (playerName,withBorder) {
+    var formated = "====" + playerName + "====";
+    if(withBorder){
+    formated = "|\n|" + playerName;
+    }
+    return formated;
 };
 
 console.log(getPlayerName("Kandra"));
+console.log(getPlayerName("Mahesha"));
+console.log(getPlayerName("Jahavar",true));
 
 
 
