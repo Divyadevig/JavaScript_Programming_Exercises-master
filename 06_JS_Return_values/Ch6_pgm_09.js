@@ -36,9 +36,9 @@ getPlayerInfo = function (playerName, playerPlace, playerHealth) {
 };
 
 console.log(getPlayerInfo("Kandra", "The Dungeon of Doom", 50));
+console.log(getPlayerInfo("Divya","From Erode",20));
 
-
-
+console.log(getPlayerInfo());
 
 /* Further Adventures
  *
