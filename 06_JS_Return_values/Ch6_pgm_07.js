@@ -5,7 +5,7 @@ var getPlayerName;
 getPlayerName = function (playerName,withBorder) {
     var formated = "====" + playerName + "====";
     if(withBorder){
-    formated = "|\n|" + playerName;
+    formated = "|\n|" + playerName + "|\n|";
     }
     return formated;
 };
