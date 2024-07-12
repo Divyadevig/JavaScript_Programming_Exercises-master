@@ -25,8 +25,28 @@ planet2 = buildPlanet("Neptune", 8, "Ice Giant", 24622, 4);
 console.log(getPlanetInfo(planet1));
 console.log(getPlanetInfo(planet2));
 
+var buildCar;
+var getCarInfo;
+var car1;
+var car2;
 
+buildCar = function (color,model,seats,year){
+    return{
+        color : color,
+        model : model,
+        seats : seats,
+        year : year
+    };
+};
 
+getCarInfo = function (car){
+    return car.model.toUpperCase() + " car colour is :" + car.color;
+}
+car1 = buildCar(" yellow " , "Suzuki ", 4 , 2003);
+car2 = buildCar(" Pink ", "PMW ", 6 , 2000);
+
+console.log(getCarInfo(car1));
+console.log(getCarInfo(car2));
 /* Further Adventures
  *
  * 1) Write a similar program to create and
