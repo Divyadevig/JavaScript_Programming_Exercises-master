@@ -6,9 +6,14 @@ var bigPlanet = planet.toUpperCase();
 console.log(planet + " becomes " + bigPlanet);
 
 getBig = function(string){
-    
-
+    return string.toUpperCase();
 };
+getSmall = function(string){
+    return string.toLowerCase();
+};
+
+console.log(getBig('Hello'));
+console.log(getSmall('Hello'));
 
 /* Further Adventures
  *
