@@ -8,13 +8,25 @@ items = [
   "The Grand Canyon",
   "Bondi Beach"
 ];
-
+items.push("Eiffel Tower");
+items = items.concat(["Great Wall of China", "Machu Picchu"]);
+console.log(items);
 showInfo = function (itemToShow) {
-    console.log(itemToShow);
+   console.log(itemToShow + ' - ' + itemToShow.length + ' letters');
+   
 };
 
 items.forEach(showInfo);
 
+var totalLetters = function() {
+  var total = 0;
+  items.forEach(function(item) {
+      total += item.length;
+  });
+  return total;
+};
+
+console.log("Total number of letters in all items: " + totalLetters());
 
 
 /* Further Adventures
