@@ -50,6 +50,8 @@ emptyBox(12);
    *    made up of a specified number of space characters.
    *    The line of spaces returned can have a length
    *    between 0 and 40.
+   * 
+   * 
    *
    * 3) Add an emptyBox function
    *    that draws an empty box of specified
