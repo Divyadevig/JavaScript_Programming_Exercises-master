@@ -3,9 +3,12 @@
 var message = "We choose to go to the Moon!";
 
 console.log(message.substr(3, 12));
-
-
-
+console.log(message.substr(23,5));
+console.log(message.substr(13,9));
+console.log(message.substr(0,9));
+console.log(message.substr(13));
+console.log(message.substr(10));
+console.log(message.substr(-9,5));
 /* Further Adventures
  *
  * 1) Use substr to log the following parts of

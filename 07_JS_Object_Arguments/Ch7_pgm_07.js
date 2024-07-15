@@ -5,7 +5,10 @@ var bigPlanet = planet.toUpperCase();
 
 console.log(planet + " becomes " + bigPlanet);
 
+getBig = function(string){
+    
 
+};
 
 /* Further Adventures
  *
