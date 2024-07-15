@@ -11,8 +11,36 @@ var line = function (lineLength) {
   console.log(line(40));
   console.log(line(50));
   
+  for(i=-20;i<=60;i+=10){
+    console.log(`line(${i}): "${line(i)}"`);
+  }
+
+  var spaces = function(spaceLength) {
+    var space = "                                        ";
+    spaceLength = Math.max(0, spaceLength);
+    spaceLength = Math.min(40, spaceLength);
+    return space.substr(0, spaceLength);
+};
+var emptyBox = function(width) {
+  width = Math.max(0, width);
+  width = Math.min(40, width);
   
+  if (width === 0) {
+      return;
+  }
   
+  var topBottom = line(width);
+  var middle = "=" + spaces(width - 2) + "=";
+  
+  console.log(topBottom);
+  for (var i = 0; i < 3; i++) {
+      console.log(middle);
+  }
+  console.log(topBottom);
+};
+
+emptyBox(12);
+
   /* Further Adventures
    *
    * 1) Test line lengths from -20 to 60
